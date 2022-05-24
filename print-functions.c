@@ -125,7 +125,7 @@ int print_S(va_list ap, params_t *params)
 		}
 		else
 		{
-			sum += _putchar(*str);
+			sum + = _putchar(*str);
 		}
 	}
 	return (sum);
